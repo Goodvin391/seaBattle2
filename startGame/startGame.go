@@ -73,6 +73,7 @@ func (b *Board) Render() {
 			} else {
 				fmt.Printf("%s ", ".")
 			}
+
 			currentLetter++
 		}
 		fmt.Println()

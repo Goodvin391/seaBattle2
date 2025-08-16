@@ -11,6 +11,7 @@ func ChekReg(users map[string]Player) (name string, res bool) {
 
 		fmt.Println("Введите ваше имя: ")
 		fmt.Scanln(&name)
+
 		terminal.ClearTerminal()
 		if name == "" {
 			continue

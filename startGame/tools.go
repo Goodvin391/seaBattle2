@@ -30,6 +30,7 @@ func newShip(player *Player, size int) {
 			if !freeCells {
 				continue
 			}
+
 			placeShip(player, letter, number, size, chooseDirect)
 			return
 		}

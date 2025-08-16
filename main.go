@@ -35,6 +35,7 @@ func App() {
 
 		case "2":
 			terminal.ClearTerminal()
+
 			os.Exit(0)
 		default:
 			terminal.ClearTerminal()
