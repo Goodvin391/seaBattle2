@@ -1,4 +1,4 @@
-package terminal
+package game
 
 import (
 	"os"
@@ -11,4 +11,8 @@ func ClearTerminal() {
 
 	cmd.Run()
 
+}
+
+func Exit() {
+	os.Exit(0)
 }

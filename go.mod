@@ -1,3 +1,3 @@
-module seabattle2
+module main
 
-go 1.24.5
+go 1.24.6
