@@ -1,4 +1,4 @@
-package terminal
+package game
 
 import (
 	"os"
@@ -8,6 +8,11 @@ import (
 func ClearTerminal() {
 	cmd := exec.Command("clear")
 	cmd.Stdout = os.Stdout
+
 	cmd.Run()
 
+}
+
+func Exit() {
+	os.Exit(0)
 }
